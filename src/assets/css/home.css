@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carrusel{
+    width: 100%;
+}
+
+.contentCarrusel{
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.item{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.itemTarjeta{
+    width: 100%;
+    height: 100vh;
+}
+
+.itemCArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.itemCArrows > i:hover {
+    cursor: pointer;
+}
+
+#item-1{
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/tech.jpg);
+}
+
+#item-2{
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/playeras.jpg);
+}
+
+#item-3{
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/shoes.jpg);
+}
+
+.contentCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contentCarrouselController > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+.itemCArrows > a > i{
+    color: white;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 
+.container{
+    background: red;
+    display: block;
+    height: 150px;
+}
+
+.container h5{
+    font-size: 20px;
+}
+.cont-empresas{
+    margin: 10px;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+#empresas{
+    text-decoration: none;
+    color: black;
+    padding-left: 100px;
+}
+
+#empresas:hover{
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+} */
+
