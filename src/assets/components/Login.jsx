@@ -1,23 +1,53 @@
+import {useState} from "react"
 
-const Login = () => {
+const initialForm = {
+    Usuario: "",
+    Contrasena: "",
+  };
+
+const Login = ({getUser}) => {
+
+    const [form, setForm] = useState(initialForm);
+
+    const handleChange = (e) => {
+        setForm({
+          ...form,
+          [e.target.name]: e.target.value,
+        });
+      };
+
+      const handleSubmit = (e) => {
+        e.preventDefault();
+    
+        if (!form.Usuario || !form.Contrasena) {
+          alert("Datos incompletos");
+          return;
+        }
+    
+        getUser(form);
+      };
+
     return (
         <>
          <main>
+            
          <div className="container">
             <div className="form-content">
                 <h1 id="titulo">Login</h1>
-                <form action="">
+                <form onSubmit={handleSubmit}>
                     <div className="input-group">
                         <div className="input-field">
-                            <i class="fa-solid fa-user"></i>
-                            <input type="text" placeholder="Usuario" />
+                            <i className="fa-solid fa-user"></i>
+                            <input type="text" name="Usuario" id="userName" placeholder="Username or email"
+                             onChange={handleChange} value={form.Usuario} />
                         </div>
                         <div className="input-field">
                             <i className="fa-solid fa-user "></i>
-                            <input type="text" placeholder="Contraseña" />
+                            <input type="text" name="Contrasena" id="password" placeholder="Contraseña"
+                             onChange={handleChange} value={form.Contrasena}/>
                         </div>
                         <div className="btn-field">
-                            <button id="sign" type="button">Entrar</button>
+                            <button id="sign" type="button" onClick={handleSubmit}>Entrar</button>
                         </div>
                     </div>
                 </form>
