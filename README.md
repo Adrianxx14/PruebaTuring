@@ -1,8 +1,33 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Proyecto SuperMarket
 
-Currently, two official plugins are available:
+![](https://www.creasystem.net/assets/uploads/media-uploader/6-consejos-para-hacer-tu-tienda-online-mas-segura1663690225.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Tecnologías  utilizadas 
+- React
+- HTML 5
+- CSS 3
+- JS
+- PHP
+- Framework CodeIgniter 
+
+
+### Instalación
+
+Se debe instalar XAMOPP en la versión utilizada para evitar problemas de compatibilidad 
+
+> "Version de Xammp", [Link](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.3/)。
+
+La API fue creada utlizando CodeIgniter.
+
+#### Abrir programa
+
+![](https://blog.openreplay.com/images/how-to-build-your-react-app-using-vite/images/hero.png)
+
+Clonar el repositorio 
+
+Despues de ello se utiliza en consola:
+    
+    | npm install  
+    | npm run dev |
