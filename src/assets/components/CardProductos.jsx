@@ -6,11 +6,11 @@ const CardProductos = (props) => {
     <div className='containerCard'>
     <div className='card'>
         <figure>
-         <img src={props.Fotografia} />
+         <img src="src/assets/img/Producto.jpg"/>
         </figure>
        <div className='contentCard'>
          <h1>{props.Nombre}</h1>
-         <p>{props.Precio}</p>
+         <p>{props.Puesto}</p>
          <a href="">Visualizar</a>
        </div>
     </div>

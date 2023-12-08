@@ -9,6 +9,7 @@
     width: 100%;
     display: flex;
     max-width: 1100px;
+    text-align: center;
 }
 
 .card{
@@ -28,7 +29,7 @@
 }
 
 .card img{
-    width: 100%;
+    width: 80%;
     height: 210px;
 }
 
@@ -56,5 +57,29 @@
     border-radius: 4px;
     transition: all 400ms ease;
 }
+
+.btn-Producto{
+    margin: 10px 0 10px 0;
+    height: 50px;
+    width: 200px;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #252525;
+    overflow: hidden;
+    border-radius: 30px;
+    color: #333;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-Producto:hover {
+    box-shadow: 1px 1px 200px #252525;
+    background: #04364A;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+}
+
+
 
 

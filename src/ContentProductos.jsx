@@ -3,6 +3,7 @@ import "./assets/css/nav.css";
 import "./assets/css/Producto.css";
 import { useState, useEffect } from "react"
 import CardProductos from "./assets/components/CardProductos";
+import Footer from "./assets/components/Footer";
 
 
 const ContentProductos = () =>{
@@ -39,6 +40,7 @@ const ContentProductos = () =>{
             )
            })}
         </div>
+        <Footer/>
         </div>
     )
 }
