@@ -31,3 +31,5 @@ Despues de ello se utiliza en consola:
     
     | npm install  
     | npm run dev |
+
+Para la base de datos se utliza phpmyadmin.
