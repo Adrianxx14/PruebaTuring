@@ -1,0 +1,85 @@
+
+.contCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerCard{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    text-align: center;
+}
+
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover{
+    box-shadow: 5px 5px, 20px, rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.card img{
+    width: 80%;
+    height: 210px;
+}
+
+.card .contentCard{
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contentCard p{
+    line-height:  1.5;
+    color: #6a6a6a;
+}
+
+.card .contentCard h1{
+    font-weight: 400;
+}
+
+.card .contentCard a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.btn-Producto{
+    margin: 10px 0 10px 0;
+    height: 50px;
+    width: 200px;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #252525;
+    overflow: hidden;
+    border-radius: 30px;
+    color: #333;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-Producto:hover {
+    box-shadow: 1px 1px 200px #252525;
+    background: #04364A;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+}
+
+
+
+
